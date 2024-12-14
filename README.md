@@ -1,5 +1,4 @@
 # The Emoji Game
-![EmojiGame_v1](https://github.com/user-attachments/assets/965bc45f-d1d5-457d-ae0f-593a0e2312af)
 ## Projet d'un jeu web !
 **Le but du jeu est simple :** 
 
