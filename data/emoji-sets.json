@@ -1,0 +1,82 @@
+[
+    {
+        "emojis": ["🕵️‍♂️", "🔫", "🍸"],
+        "answer": "James Bond",
+        "category": "Films"
+    },
+    {
+        "emojis": ["👨‍🚀", "🌌", "🚀"],
+        "answer": "Interstellar",
+        "category": "Films"
+    },
+    {
+        "emojis": ["🦸‍♂️", "🦸‍♀️", "🌍"],
+        "answer": "Avengers",
+        "category": "Films"
+    },
+    {
+        "emojis": ["🧟", "🔫", "👧"],
+        "answer": "The Last Of Us",
+        "category": "Jeux"
+    },
+    {
+        "emojis": ["📖", "👦", "🐉"],
+        "answer": "Harry Potter",
+        "category": "Livres"
+    },
+    {
+        "emojis": ["🔫", "🌌", "⚔️"],
+        "answer": "Star Wars",
+        "category": "Films"
+    },
+    {
+        "emojis": ["🏰", "👑", "👸"],
+        "answer": "Game of Thrones",
+        "category": "Séries"
+    },
+    {
+        "emojis": ["🤖", "🤝", "🚀"],
+        "answer": "Star Trek",
+        "category": "Films"
+    },
+    {
+        "emojis": ["👸","☃️", "❄️"],
+        "answer": "La Reine des Neiges",
+        "category": "Films"
+    },
+    {
+        "emojis": ["👨‍👩", "🕵","🥜"],
+        "answer": "Spy x Family",
+        "category": "Anime/Manga"
+    },
+    {
+        "emojis": ["⚔️","🧙‍♂️","🐉"],
+        "answer": "Seigneur des Anneaux",
+        "category": "Films"
+    },
+    {
+        "emojis": ["🧟‍♂️", "🏃‍♂️", "🔫"],
+        "answer": "The Walking Dead",
+        "category":"Séries"
+    },
+    {
+        "emojis": ["👨‍👩‍👧‍👦", "🦸‍♂️", "🦸‍♀️"],
+        "answer": "The Incredibles",
+        "category": "Films"
+    },
+    {
+        "emojis": ["💀", "📕", "😈"],
+        "answer": "Death Note",
+        "category": "Anime/Manga"
+    },
+    {
+        "emojis": ["🦾", "✡", "🧙‍♂️"],
+        "answer": "Fullmetal Archemist",
+        "category": "Anime/Manga"
+    },
+    {
+        "emojis": ["👺", "⚔️", "🔥"],
+        "answer": "Demon Slayer",
+        "category": "Anime/Manga"
+    }
+]

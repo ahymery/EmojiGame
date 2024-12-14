@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'Poppins';
+    background-color: rgb(44, 40, 53);
+}
+
+/* PAGE D'ACCUEIL AVEC REGLES */
+.rules_card {
+    background: rgb(123,0,255);
+    background: linear-gradient(55deg, rgba(123,0,255,1) 0%, rgba(0,212,255,1) 97%);
+    border: 5px solid #ffffff; /* Bordure verte */
+    border-radius: 15px; /* Bords arrondis */
+    padding: 15px; /* Espacement interne */
+    max-width: 400px; /* Largeur maximale de la carte */
+    margin: 15px auto; /* Centrer la carte horizontalement */
+    box-shadow: 0 0 20px rgba(4, 66, 255, 0.8), 0 0 40px rgba(76, 175, 80, 0.6); /* Ombre néon */
+}
+
+.rules_card h1 {
+    color: #4c57af; /* Couleur du titre */
+    text-align: center; /* Centrer le titre */
+}
+
+.rules_card h2 {
+    color: #333; /* Couleur du sous-titre */
+    text-align: center; /* Centrer le sous-titre */
+}
+
+.rules_card p, .rules_card ul {
+    color: #ffffff; /* Couleur du texte */
+    line-height: 1.6; /* Hauteur de ligne pour une meilleure lisibilité */
+}
+
+.rules_card ul {
+    list-style-type: disc; /* Style de liste */
+    padding-left: 20px; /* Espacement à gauche pour la liste */
+}
+
+.rules_card img {
+    width: 125px;
+    margin-left: 130px;
+}
+
+.play_button {
+    font-family: 'Poppins';
+    background-color: #ffffff; /* Couleur de fond du bouton */
+    color: rgb(0, 0, 0); /* Couleur du texte du bouton */
+    border: 2px solid white; /* Pas de bordure */
+    border-radius: 5px; /* Bords arrondis */
+    padding: 10px 20px; /* Espacement interne du bouton */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer; /* Curseur en forme de main au survol */
+    margin-top: 20px; /* Espacement au-dessus du bouton */
+    transition: background-color 0.5s; /* Transition pour l'effet de survol */
+    text-decoration: none;
+    margin-left: 150px;
+}
+
+/* Page de jeu ! */
+
+.card {
+    background: rgb(76, 0, 255);
+    border: 5px solid #ffffff; /* Bordure verte */
+    border-radius: 15px; /* Bords arrondis */
+    padding: 15px; /* Espacement interne */
+    max-width: 400px; /* Largeur maximale de la carte */
+    margin: 15px auto; /* Centrer la carte horizontalement */
+    box-shadow: 0 0 20px rgba(4, 66, 255, 0.8), 0 0 40px rgba(76, 175, 80, 0.6); /* Ombre néon */
+    margin-top: 150px;
+}
+
+.game_container {
+    display: flex; /* Utiliser Flexbox */
+    flex-direction: column; /* Disposition en colonne */
+    justify-content: center; /* Centrer verticalement */
+    align-items: center; /* Centrer horizontalement */
+    height: 100%; /* Prendre toute la hauteur de la page */
+}
+
+.emoji_display {
+    font-size: 48px; /* Taille des émojis */
+    margin-bottom: 20px; /* Espacement en bas */
+}
+
+.input_container {
+    margin-bottom: 20px; /* Espacement en bas */
+}
+
+.input_guess {
+    padding: 10px; /* Espacement interne */
+    font-size: 16px; /* Taille de la police */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Bords arrondis */
+}
+
+.submit_button {
+    background-color: #0000ab; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Bords arrondis */
+    padding: 10px 20px; /* Espacement interne du bouton */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer; /* Curseur en forme de main au survol */
+    transition: background-color 0.3s; /* Transition pour l'effet de survol */
+}
+
+.submit_button:hover {
+    background-color: #000071; /* Couleur de fond au survol */
+}
+
+.result {
+    margin-top: 20px; /* Espacement en haut */
+    font-size: 20px; /* Taille de la police pour le résultat */
+}
+
+.game-message {
+    text-align: center;
+    margin-top: 10px;
+    height: 30px;
+    font-weight: bold;
+}
+.game-message.error {
+    color: #d9534f;
+    animation: shake 0.5s;
+}
+.game-message.success {
+    color: #5cb85c;
+}
+.game-message.info {
+    color: #5bc0de;
+}
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+    20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+.game-over-container {
+    text-align: center;
+    padding: 20px;
+}
+.game-over-details h3 {
+    color: #d9534f;
+    margin-bottom: 15px;
+}
+.game-over-details p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+#restart-game {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#restart-game:hover {
+    background-color: #4cae4c;
+}

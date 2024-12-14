@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu des Émojis</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers le fichier CSS -->
+</head>
+<body>
+    <div class="card">
+        <div class="game_container">
+            <div class="score"></div>
+            <div class="emoji_display" id="emojiDisplay"></div>
+            <div class="countdown"></div>
+            <br>
+            <div class="input_container">
+                <input type="text" id="guessInput" class="input_guess" placeholder="Devinez les émojis...">
+                <button class="submit_button" id="guessButton" onclick="checkGuess()">Répondre !</button>
+            </div>
+            <div class="result" id="resultDisplay"></div>
+        </div>
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
