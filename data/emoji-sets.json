@@ -41,7 +41,7 @@
     },
     {
         "emojis": ["👸","☃️", "❄️"],
-        "answer": "La Reine des Neiges",
+        "answer": ["La Reine des Neiges", "Reine des Neiges", "Reine des neige"],
         "category": "Films"
     },
     {
@@ -51,7 +51,7 @@
     },
     {
         "emojis": ["⚔️","🧙‍♂️","🐉"],
-        "answer": "Seigneur des Anneaux",
+        "answer": ["Seigneur des Anneaux", "Le Seigneur des Anneaux"],
         "category": "Films"
     },
     {
@@ -61,7 +61,7 @@
     },
     {
         "emojis": ["👨‍👩‍👧‍👦", "🦸‍♂️", "🦸‍♀️"],
-        "answer": "The Incredibles",
+        "answer": ["Les Indestructibles", "Indestructible", "The Incredible", "Incredible"],
         "category": "Films"
     },
     {
